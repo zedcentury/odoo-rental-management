@@ -5,8 +5,8 @@
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
     'description': """
-Long description of module's purpose
-    """,
+                   Long description of module's purpose
+                       """,
 
     'author': "My Company",
     'website': "https://www.yourcompany.com",
@@ -22,13 +22,17 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+
+        "data/ir_sequence.xml",
+
         'views/views.xml',
         'views/templates.xml',
+        "views/product.xml",
+        "views/rental_order.xml"
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
 }
-
