@@ -28,6 +28,7 @@
 
         'views/views.xml',
         'views/templates.xml',
+        "views/category.xml",
         "views/product.xml",
         "views/rental_order.xml"
     ],

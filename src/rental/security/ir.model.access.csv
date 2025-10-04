@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_rental_rental_category,access_rental_rental_category,model_rental_category,base.group_user,1,1,1,1
 access_rental_rental_product,access_rental_rental_product,model_rental_product,base.group_user,1,1,1,1
 access_rental_rental_order,access_rental_rental_order,model_rental_order,base.group_user,1,1,1,1

@@ -6,6 +6,7 @@
             <field name="model">rental.product</field>
             <field name="arch" type="xml">
                 <list>
+                    <field name="category_id"/>
                     <field name="name"/>
                     <field name="description"/>
                 </list>
