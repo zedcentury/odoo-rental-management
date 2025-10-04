@@ -35,21 +35,21 @@ msgstr "Toifa"
 #. module: rental
 #: model:ir.model,name:rental.model_rental_category
 msgid "Category Model"
-msgstr ""
+msgstr "Toifa modeli"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__create_uid
 #: model:ir.model.fields,field_description:rental.field_rental_order__create_uid
 #: model:ir.model.fields,field_description:rental.field_rental_product__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Yaratgan"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__create_date
 #: model:ir.model.fields,field_description:rental.field_rental_order__create_date
 #: model:ir.model.fields,field_description:rental.field_rental_product__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Yaratilgan sana"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__description
@@ -61,58 +61,58 @@ msgstr "Tavsif"
 #: model:ir.model.fields,field_description:rental.field_rental_order__display_name
 #: model:ir.model.fields,field_description:rental.field_rental_product__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Ko'rsatiladigan nom"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_order__end_date
 msgid "End Date"
-msgstr "Tugash vaqti"
+msgstr "Tugash sanasi"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__id
 #: model:ir.model.fields,field_description:rental.field_rental_order__id
 #: model:ir.model.fields,field_description:rental.field_rental_product__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__image_1920
 msgid "Image"
-msgstr ""
+msgstr "Rasm"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__image_1024
 msgid "Image 1024"
-msgstr ""
+msgstr "Rasm 1024"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__image_128
 msgid "Image 128"
-msgstr ""
+msgstr "Rasm 128"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__image_256
 msgid "Image 256"
-msgstr ""
+msgstr "Rasm 256"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_product__image_512
 msgid "Image 512"
-msgstr ""
+msgstr "Rasm 512"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__write_uid
 #: model:ir.model.fields,field_description:rental.field_rental_order__write_uid
 #: model:ir.model.fields,field_description:rental.field_rental_product__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Oxirgi yangilagan"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__write_date
 #: model:ir.model.fields,field_description:rental.field_rental_order__write_date
 #: model:ir.model.fields,field_description:rental.field_rental_product__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Oxirgi yangilanish sanasi"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_category__name
@@ -126,7 +126,7 @@ msgstr "Nomi"
 #: model:ir.actions.act_window,name:rental.rental_order_action
 #: model:ir.ui.menu,name:rental.rental_order_menu
 msgid "Orders"
-msgstr ""
+msgstr "Buyurtmalar"
 
 #. module: rental
 #: model:ir.model,name:rental.model_rental_product
@@ -139,34 +139,34 @@ msgstr "Mahsulot"
 #: model:ir.actions.act_window,name:rental.product_action
 #: model:ir.ui.menu,name:rental.product_menu
 msgid "Products"
-msgstr ""
+msgstr "Mahsulotlar"
 
 #. module: rental
 #: model:ir.model,name:rental.model_rental_order
 msgid "Rental Order"
-msgstr ""
+msgstr "Ijara buyurtmasi"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_order__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "Boshlanish sanasi"
 
 #. module: rental
 #: model:ir.model.fields,field_description:rental.field_rental_order__total_price
 msgid "Total Price"
-msgstr "Umumiy narxi"
+msgstr "Umumiy narx"
 
 #. module: rental
 #: model_terms:ir.ui.view,arch_db:rental.product_form
 msgid "e.g. Car"
-msgstr "m.u. Avtomashina"
+msgstr "masalan, Avtomobil"
 
 #. module: rental
 #: model_terms:ir.ui.view,arch_db:rental.category_form
 msgid "e.g. Machine"
-msgstr "m.u. Mashina"
+msgstr "masalan, Texnika"
 
 #. module: rental
 #: model_terms:ir.ui.view,arch_db:rental.rental_order_form
 msgid "e.g. S0003"
-msgstr ""
+msgstr "masalan, S0003"
