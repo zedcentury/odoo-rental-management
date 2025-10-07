@@ -6,6 +6,7 @@ class RentalOrder(models.Model):
     _description = "Rental Order"
 
     name = fields.Char(string="Name", required=True, default="New")
+    customer_id = fields.Many2one("rental.customer", string="Customer")
     product_id = fields.Many2one("rental.product", required=True)
     start_date = fields.Datetime(string="Start Date", required=True)
     end_date = fields.Datetime(string="End Date", required=True)

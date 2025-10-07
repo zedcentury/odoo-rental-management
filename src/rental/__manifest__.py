@@ -30,6 +30,7 @@
         'views/templates.xml',
         "views/category.xml",
         "views/product.xml",
+        'views/customer.xml',
         "views/rental_order.xml"
     ],
     # only loaded in demonstration mode
