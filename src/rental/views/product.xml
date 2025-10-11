@@ -43,6 +43,6 @@
             <field name="view_mode">list,form</field>
         </record>
 
-        <menuitem id="product_menu" action="product_action"/>
+        <menuitem id="product_menu" action="product_action" groups="rental.group_rental_admin"/>
     </data>
 </odoo>

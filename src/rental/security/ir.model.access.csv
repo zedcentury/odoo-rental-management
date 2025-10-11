@@ -1,5 +1,12 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_rental_rental_category,access_rental_rental_category,model_rental_category,base.group_user,1,1,1,1
-access_rental_rental_product,access_rental_rental_product,model_rental_product,base.group_user,1,1,1,1
-access_rental_rental_order,access_rental_rental_order,model_rental_order,base.group_user,1,1,1,1
-access_rental_rental_customer,access_rental_rental_customer,model_rental_customer,base.group_user,1,1,1,1
+
+access_rental_rental_category_global,access_rental_rental_category_global,rental.model_rental_category,,1,0,0,0
+
+access_rental_rental_product_readonly,access_rental_rental_product_readonly,rental.model_rental_product,group_rental_readonly,1,0,0,0
+access_rental_rental_order_readonly,access_rental_rental_order_readonly,rental.model_rental_order,group_rental_readonly,1,0,0,0
+
+access_rental_rental_product_manager,access_rental_rental_product_manager,rental.model_rental_product,group_rental_manager,1,1,1,0
+access_rental_rental_order_manager,access_rental_rental_order_manager,rental.model_rental_order,group_rental_manager,1,1,1,0
+
+access_rental_rental_product_admin,access_rental_rental_product_admin,rental.model_rental_product,group_rental_admin,1,1,1,1
+access_rental_rental_order_admin,access_rental_rental_order_admin,rental.model_rental_order,group_rental_admin,1,1,1,1

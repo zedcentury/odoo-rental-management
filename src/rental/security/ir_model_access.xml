@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="access_rental_rental_product_readonly" model="ir.model.access">
+            <field name="name">access_rental_rental_product_readonly</field>
+            <field name="model_id" ref="rental.model_rental_product"/>
+            <field name="group_id" ref="group_rental_readonly"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_unlink" eval="False"/>
+        </record>
+    </data>
+</odoo>

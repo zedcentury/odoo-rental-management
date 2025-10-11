@@ -29,8 +29,8 @@
                         </div>
                         <group>
                             <field name="product_id"/>
-                            <field name="start_date"/>
-                            <field name="end_date"/>
+                            <field name="start_date" groups="!rental.group_rental_readonly"/>
+                            <field name="end_date" groups="!rental.group_rental_readonly"/>
                         </group>
                     </sheet>
                 </form>

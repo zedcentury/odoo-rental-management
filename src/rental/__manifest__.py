@@ -22,7 +22,10 @@
 
     # always loaded
     'data': [
+        'security/groups.xml',
+
         'security/ir.model.access.csv',
+        # "security/ir_model_access.xml",
 
         "data/ir_sequence.xml",
 
