@@ -5,8 +5,8 @@
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
     'description': """
-                   Long description of module's purpose
-                       """,
+                                      Long description of module's purpose
+                                          """,
 
     'author': "My Company",
     'website': "https://www.yourcompany.com",
@@ -18,13 +18,15 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'mail'],
 
     # always loaded
     'data': [
         'security/groups.xml',
 
         'security/ir.model.access.csv',
+        'security/ir_rule.xml',
+
         # "security/ir_model_access.xml",
 
         "data/ir_sequence.xml",

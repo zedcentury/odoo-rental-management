@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="group_sales_own_rule" model="ir.rule">
+            <field name="name">Only own documents</field>
+            <field name="model_id" ref="model_rental_order"/>
+            <field name="groups" eval="[
+                (4, ref('group_sales_own'))
+            ]"/>
+            <field name="domain_force">[('create_uid', '=', user.id)]</field>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_unlink" eval="True"/>
+        </record>
+
+        <record id="group_sales_own_product_rule" model="ir.rule">
+            <field name="name">Only own products</field>
+            <field name="model_id" ref="model_rental_product"/>
+<!--            <field name="groups" eval="[-->
+<!--                (4, ref('group_sales_own'))-->
+<!--            ]"/>-->
+            <field name="domain_force">[('broken', '=', False)]</field>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_write" eval="True"/>
+        </record>
+    </data>
+</odoo>
